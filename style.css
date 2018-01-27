@@ -23,6 +23,8 @@ div.lightMode {
 
 div.darkMode {
     background-color: #cccccc;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 div.btnWrapper {
     margin-top: 15px;
@@ -30,4 +32,8 @@ div.btnWrapper {
 button.s2btn {
     display: block;
     margin: auto;
+}
+.Sec3img1 {
+    width: 200px;
+    height: 200px;
 }
