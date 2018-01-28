@@ -8,17 +8,25 @@ body {
     
 }
 .event-pic-1 {
-    width: 100%;
-    height: auto;
+    opacity: 0.5;
+    height: 270px;
     border: 2px solid white;
     margin: 5px;
     display: block;
     padding: 2px;
     border-radius: 50%;
+    overflow: hidden;
     
 }
 div.lightMode {
     background-color: #eceeef;
+}
+
+.carousel-inner {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    border-radius: 7px;
 }
 
 div.darkMode {
@@ -33,7 +41,18 @@ button.s2btn {
     display: block;
     margin: auto;
 }
-.Sec3img1 {
-    width: 200px;
-    height: 200px;
+catering-img1 {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    padding: 2rem;
+}
+
+/*Media Query*/
+@media only screen and (max-width: 500px)
+{
+    .carousel-inner {
+        width: 100%;
+        height: auto;
+    } 
 }
