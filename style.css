@@ -125,6 +125,21 @@ button.section-2-btn {
     color: black;
     border-width: medium;
 }
+.footer-bg {
+    background-color: #E6E6FA;
+}
+
+.footer-img-wrapper {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.footer-img {
+    width: 4%;
+}
+.fa {
+    margin: 10px;
+}
 
 /*Modal*/
 .modal-logo {
@@ -138,5 +153,8 @@ button.section-2-btn {
     .carousel-inner {
         width: 100%;
         height: auto;
+    }
+    .footer-img {
+    width: 50%;
     }
 }
